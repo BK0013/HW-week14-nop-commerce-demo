@@ -42,7 +42,7 @@ public class LoginPageTest extends TestBase {
     @Test
     public void verifyThatUserShouldLogInSuccessFullyWithValidCredentials() throws InterruptedException {
         homePage.clickOnLoginLink();
-        loginPage.enterEmailId("hetal1234@gmail.com");
+        loginPage.enterEmailId("bkpatel13@gmail.com");
         Thread.sleep(1000);
         loginPage.enterPassword("sairam123");
         Thread.sleep(3000);
@@ -57,7 +57,7 @@ public class LoginPageTest extends TestBase {
     @Test
     public void VerifyThatUserShouldLogOutSuccessFully() throws InterruptedException {
         homePage.clickOnLoginLink();
-        loginPage.enterEmailId("hetal1234@gmail.com");
+        loginPage.enterEmailId("bkpatel13@gmail.com");
         Thread.sleep(1000);
         loginPage.enterPassword("sairam123");
         Thread.sleep(3000);
